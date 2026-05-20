@@ -1,53 +1,33 @@
 # Natanaelizidro-gerenciador-notas
-Sistema de Gerenciamento Acadêmico
-Descrição do Projeto
+# Sistema Acadêmico em Python
 
-Este projeto consiste em um sistema simples de gerenciamento acadêmico desenvolvido em Python. O objetivo da aplicação é realizar o cadastro de estudantes, armazenar suas notas e gerar relatórios contendo a média final e a situação de aprovação de cada aluno.
+## Descrição
 
-O sistema foi desenvolvido utilizando conceitos fundamentais de programação, como:
+Este projeto foi desenvolvido em Python com o objetivo de realizar o gerenciamento de notas de estudantes. O sistema permite cadastrar alunos, calcular médias, verificar aprovação e gerar relatórios acadêmicos de forma simples e organizada.
 
-Listas e dicionários
-Funções
-Modularização
-Estruturas de repetição
-Condicionais
-Boas práticas de documentação e padronização PEP 8
-Estrutura dos Dados
+---
 
-Os estudantes são armazenados em uma lista de dicionários, contendo:
+## Funcionalidades
 
-nome: nome do estudante
-notas: lista de notas do estudante
-Funcionalidades
+- Cadastro de estudantes
+- Armazenamento de notas
+- Cálculo da média
+- Verificação de aprovação
+- Geração de relatórios
+- Testes automatizados
 
-O sistema possui as seguintes funcionalidades:
+---
 
-Cadastro de estudantes
-Armazenamento das notas
-Cálculo da média aritmética
-Verificação de aprovação
-Geração de relatório acadêmico
-Pré-requisitos
+## Tecnologias Utilizadas
 
-Antes de executar o projeto, é necessário possuir:
+- Python 3
+- Biblioteca `unittest`
 
-Python 3 instalado na máquina
+---
 
-Para verificar se o Python está instalado, execute no terminal:
-Organização do Projeto
+## Estrutura do Projeto
 
-O sistema foi estruturado de forma modular, separando as responsabilidades em funções específicas:
-
-calcular_media()
-verificar_aprovacao()
-gerar_relatorio()
-
-Essa abordagem facilita:
-
-manutenção do código
-reutilização das funções
-legibilidade
-futuras expansões do sistema
-Tecnologias Utilizadas
-Linguagem Python 3
-Terminal/Console para execução
+```bash
+gerenciador_notas.py
+test_notas.py
+README.md
